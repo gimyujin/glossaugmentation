@@ -4,7 +4,7 @@ class Config:
     # 경로 설정
     DICT_PATH = r"data\ksl_gloss_dictionary_for_mapping.csv"
     DATA_PATH = r"data\train7000.csv"
-    OUTPUT_PATH = "br_augmented_final7000.csv"
+    OUTPUT_PATH = r"data\br_augmented_final7000.csv"
 
     # 모델 설정
     MODEL_NAME = "klue/roberta-base"
